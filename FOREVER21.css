@@ -1,0 +1,252 @@
+body{
+    font-family: Arial;
+    margin: 0 0 0 0;
+    height: 3000px;
+}
+.header-moving{
+    display: flex;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: 0;
+    align-items: center;
+}
+.moving{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40,40,40);
+    color: white;
+    flex-direction: row;
+    height: 38px;
+}
+.header2-p1{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 8px;
+    align-items: center;
+}
+.more-brands{
+    display: flex;
+    font-size: 10px;
+    margin-right: 55px;
+    margin-left: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.before-arrow{
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+}
+.arrow{
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.delivery-location{
+    display: flex;
+    flex-direction: column;
+}
+.delivery1{
+    font-size: 8px;
+    color: white;
+}
+.delivery2{
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.header2-p2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+.stores{
+    font-size: 10px;
+    color: white;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.liked{
+    font-size: 25px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.header3{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    z-index: 100;
+}
+.header3-p1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 160px;
+}
+.F21{
+    height: 55px;
+    cursor: pointer;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 14px;
+    color: dimgrey;
+    font-weight: bold;
+}
+.c{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header3-p2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-ic{
+    height: 36px;
+    border-style: solid;
+    border-bottom-color: black;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-width: 1px;
+    margin-right: -1px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.search-bar{
+    border-style: solid;
+    border-bottom-color: black;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    font-size: 12px;
+    color: dimgrey;
+    border-width: 1px;
+    width: 220px;
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+}
+.expess-delivery{
+    display: flex;
+    align-items: center;
+}
+.expdel{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.b1{
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 22px;
+    padding-bottom: 2px;
+}
+.b2{
+    font-size: 10px;
+}
+.adiya-birla{
+    display: flex;
+    align-items: center;
+}
+.abf{
+    height: 75px;
+    margin-right: 15px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.close{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    bottom: 25px;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 150;
+}
+.chat{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px; 
+}
+.bhosda{
+    display: flex;
+    width: 100%;
+}
+.back{
+    display: flex;
+    z-index: 0;
+    position: relative;
+}
+.big{
+    display: flex;
+    width: 100%;
+}
+.shop-now{
+    display: flex;
+    left: 680px;
+    top: 625px;
+    bottom: 60px;
+    z-index: 10;
+    position: absolute;
+}
+.shop-now1{
+    border: none;
+    height: 52px;
+    width: 180px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+.shop-now1:hover{
+    border: none;
+    background-color:rgb(240,240,240);
+}
+.shop-now1:active{
+    background-color:rgb(232,232,232);
+}
